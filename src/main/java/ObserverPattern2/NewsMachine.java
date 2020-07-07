@@ -32,11 +32,6 @@ public class NewsMachine implements Publisher {
         notifyObserver();
     }
 
-    public String getTitle() {
-        return title;
-    }
 
-    public String getNews() {
-        return news;
-    }
+
 }
